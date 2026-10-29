@@ -1,0 +1,49 @@
+# Matrix
+#
+# Every color is one of four core colors or a variant of one. The core colors
+# are the palette that fan sites give for the digital rain: Vampire Black
+# #0D0208, Dark Green #003B00, Islamic Green #008F11 and Malachite #00FF41.
+#
+# A variant keeps the OKLCH hue of its core color and changes only the
+# lightness and the chroma. The three greens share one hue, so the code roles
+# differ by lightness, saturation and weight. Errors and deletions burn
+# white-hot, like the leading glyph of a stream.
+#
+# The comment after each value names its core color and its OKLCH lightness
+# and chroma.
+
+mode = "dark"
+
+accent = "#00FF41"                # Malachite
+selection = "#003B00"             # Dark Green
+selection_foreground = "#D6FFD5"  # Malachite L 0.96 C 0.07
+muted = "#247D25"                 # Islamic Green L 0.52 C 0.15
+
+background = "#0D0208"            # Vampire Black
+dark_background = "#060104"       # Vampire Black L 0.09
+darker_background = "#020001"     # Vampire Black L 0.06
+lighter_background = "#031F02"    # Dark Green L 0.21
+
+foreground = "#00FF41"            # Malachite
+dark_foreground = "#008F11"       # Islamic Green
+light_foreground = "#A3FFA4"      # Malachite L 0.92 C 0.15
+bright_foreground = "#DCFFDB"     # Malachite L 0.965 C 0.06
+
+hyprland_active_border = "rgba(00ff41ee) rgba(008f11ee) 45deg"
+hyprland_inactive_border = "rgba(003b00aa)"
+
+red = "#F6FFF6"                   # Malachite L 0.99 C 0.015: errors, deletions
+yellow = "#86DD82"                # Islamic Green L 0.82 C 0.15: types, warnings
+orange = "#0DE13B"                # Malachite L 0.79 C 0.25: numbers, changes
+green = "#B8FFB7"                 # Malachite L 0.935 C 0.12: strings, additions
+cyan = "#83FC88"                  # Malachite L 0.895 C 0.19: parameters, members
+blue = "#29C22F"                  # Islamic Green L 0.71 C 0.22: functions
+magenta = "#5E9E59"               # Dark Green L 0.64 C 0.12
+brown = "#30632D"                 # Dark Green L 0.45 C 0.10
+
+bright_red = "#FCFFFC"            # Malachite L 0.997 C 0.006
+bright_yellow = "#B7F0B3"         # Islamic Green L 0.90 C 0.10: constants
+bright_green = "#D0FFCF"          # Malachite L 0.955 C 0.08
+bright_cyan = "#AFE1AA"           # Dark Green L 0.86 C 0.09: properties
+bright_blue = "#61DD5F"           # Islamic Green L 0.80 C 0.20
+bright_magenta = "#EDFEEC"        # Malachite L 0.98 C 0.03: keywords
